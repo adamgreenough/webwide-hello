@@ -1,0 +1,12 @@
+{
+  "name": "webwide-hello",
+  "version": "1.0.0",
+  "description": "Landing page for Webwide.io (hello.webwide.io)",
+  "scripts": {
+    "scss": "node-sass --watch assets/scss/style.scss -o assets/css/"
+  },
+  "author": "Adam Greenogh",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

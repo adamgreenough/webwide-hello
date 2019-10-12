@@ -1,3 +1,4 @@
+// Time since prettifier function
 function timeSince(date) {
 	date = new Date(date * 1000);
 	var seconds = Math.floor((new Date() - date) / 1000);

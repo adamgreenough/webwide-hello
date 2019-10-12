@@ -323,7 +323,7 @@ body {
 #latest {
 	background: #272b2f;
 	color: #fff;
-	padding: 50px 0 60px;
+	padding: 50px 0 70px;
 	
 	h2 {
 		margin: 0;
@@ -378,20 +378,38 @@ body {
 			
 			&:hover {
 				.thread {
-					background: rgba(0,0,0,0.25);	
+					background: #1c2023;
+					
+					&:after {
+						background: #1c2023;
+					}	
 				}	
 			}
 			
 			
 			.thread {
-				background: rgba(0,0,0,0.1);
+				background: #22262a;
 				padding: 20px;
 				color: #fff;
 				text-decoration: none !important;
 				border-radius: 5px;
 				height: 100%;
 				display: flex;
+				flex-direction: row-reverse;
 				transition: 0.25s;
+				position: relative;
+				
+				&:after {
+					content: '';
+					width: 20px;
+					height: 20px;
+					background: #22262a;
+					position: absolute;
+					right: 30px;
+					bottom: -5px;
+					transform: rotate(45deg);
+					transition: 0.25s;
+				}
 				
 				div {
 					width: calc(100% - 60px);
@@ -427,7 +445,7 @@ body {
 					width: 40px;
 					min-width: 40px;
 					height: 40px;
-					margin-right: 15px;
+					margin-left: 15px;
 				}
 			}
 		}	

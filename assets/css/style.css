@@ -231,7 +231,7 @@ body {
 #latest {
   background: #272b2f;
   color: #fff;
-  padding: 50px 0 60px; }
+  padding: 50px 0 70px; }
   #latest h2 {
     margin: 0; }
   #latest p.lead {
@@ -268,16 +268,30 @@ body {
           #latest #threads-list a:nth-child(n+8) {
             display: none; } }
       #latest #threads-list a:hover .thread {
-        background: rgba(0, 0, 0, 0.25); }
+        background: #1c2023; }
+        #latest #threads-list a:hover .thread:after {
+          background: #1c2023; }
       #latest #threads-list a .thread {
-        background: rgba(0, 0, 0, 0.1);
+        background: #22262a;
         padding: 20px;
         color: #fff;
         text-decoration: none !important;
         border-radius: 5px;
         height: 100%;
         display: flex;
-        transition: 0.25s; }
+        flex-direction: row-reverse;
+        transition: 0.25s;
+        position: relative; }
+        #latest #threads-list a .thread:after {
+          content: '';
+          width: 20px;
+          height: 20px;
+          background: #22262a;
+          position: absolute;
+          right: 30px;
+          bottom: -5px;
+          transform: rotate(45deg);
+          transition: 0.25s; }
         #latest #threads-list a .thread div {
           width: calc(100% - 60px);
           flex: 1 0; }
@@ -306,7 +320,7 @@ body {
           width: 40px;
           min-width: 40px;
           height: 40px;
-          margin-right: 15px; }
+          margin-left: 15px; }
 
 #features {
   height: 800px; }

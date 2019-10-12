@@ -652,6 +652,7 @@ body {
 		padding: 20px;
 		text-decoration: none;
 		transition: 0.25s;
+		line-height: 1.1;
 		
 		&:hover {
 			background: darken($green, 3%);
@@ -705,7 +706,8 @@ body {
 				
 				@media(max-width: 600px) {
 					justify-content: flex-start;
-					margin-top: 10px;	
+					margin-top: 10px;
+					font-size: 0.8rem;	
 				}
 				
 				li {

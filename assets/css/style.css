@@ -101,7 +101,11 @@ body {
         border-radius: 5px;
         opacity: 1;
         font-size: 1.1rem;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12); }
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
+        transition: 0.25s; }
+        #hero .intro .buttons a.cta:hover {
+          background: #119d11;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24); }
       @media (max-width: 750px) {
         #hero .intro .buttons span {
           display: block;
@@ -341,7 +345,7 @@ body {
 
 #features {
   background: #f9fafa;
-  padding: 50px 0; }
+  padding: 50px 0 100px; }
   #features .wrapper {
     display: flex;
     justify-content: space-between; }
@@ -443,6 +447,69 @@ body {
               width: 100%;
               margin: 0 auto 20px;
               height: 200px; } }
+
+#footer {
+  background: #272b2f;
+  padding: 40px 0; }
+  #footer .cta {
+    margin: -90px 0 40px;
+    background: #13ab13;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    transition: 0.25s; }
+    #footer .cta:hover {
+      background: #119d11;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24); }
+    #footer .cta h2 {
+      margin: 0 0 5px 0; }
+    #footer .cta p {
+      margin: 0 0 5px 0;
+      padding: 0; }
+  #footer .wrapper {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between; }
+    @media (max-width: 600px) {
+      #footer .wrapper {
+        flex-direction: column;
+        justify-content: flex-start; } }
+    #footer .wrapper .logo img {
+      width: 130px;
+      height: auto; }
+      @media (max-width: 550px) {
+        #footer .wrapper .logo img {
+          width: 110px; } }
+    #footer .wrapper nav {
+      width: 100%;
+      display: flex;
+      align-items: center; }
+      #footer .wrapper nav ul {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0; }
+        @media (max-width: 600px) {
+          #footer .wrapper nav ul {
+            justify-content: flex-start;
+            margin-top: 10px; } }
+        #footer .wrapper nav ul li {
+          margin-left: 25px; }
+          @media (max-width: 600px) {
+            #footer .wrapper nav ul li {
+              margin-right: 25px;
+              margin-left: 0; } }
+          #footer .wrapper nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold; }
 
 .spinner {
   width: 100%;

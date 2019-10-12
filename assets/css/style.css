@@ -94,7 +94,7 @@ body {
         #hero .intro .buttons a:hover {
           opacity: 1; }
       #hero .intro .buttons a.cta {
-        background: #13ab13;
+        background: #00b95d;
         padding: 20px 23px;
         display: inline-block;
         margin: 0 5px 0 0;
@@ -104,7 +104,7 @@ body {
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
         transition: 0.25s; }
         #hero .intro .buttons a.cta:hover {
-          background: #119d11;
+          background: #00aa55;
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24); }
       @media (max-width: 750px) {
         #hero .intro .buttons span {
@@ -454,7 +454,7 @@ body {
   padding: 40px 0; }
   #footer .cta {
     margin: -100px 0 40px;
-    background: #13ab13;
+    background: #00b95d;
     border-radius: 5px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     width: 100%;
@@ -465,7 +465,7 @@ body {
     transition: 0.25s;
     line-height: 1.1; }
     #footer .cta:hover {
-      background: #119d11;
+      background: #00aa55;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24); }
     #footer .cta h2 {
       margin: 0 0 12px 0; }
@@ -477,7 +477,7 @@ body {
       background: #fff;
       display: inline-block;
       padding: 10px 15px;
-      color: #13ab13;
+      color: #00b95d;
       font-weight: bold;
       border-radius: 5px;
       margin-top: 10px; }

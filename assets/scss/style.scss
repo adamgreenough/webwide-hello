@@ -348,12 +348,33 @@ body {
 		flex-wrap: wrap;
 		margin-right: -30px;
 		
+		@media(max-width: 1000px) {
+			margin-right: -20px;
+		}
+
+		@media(max-width: 750px) {
+			margin-right: -20px;	
+		}
+		
 		a {
 			text-decoration: none;
 			width: 33%;
 			padding-right: 20px;
 			margin-top: 20px;
 			cursor: pointer;
+			
+			@media(max-width: 1000px) {
+				width: 50%;	
+			}
+
+			@media(max-width: 750px) {
+				width: 100%;
+				margin-top: 10px;	
+				
+				&:nth-child(n+8) {
+					display: none;	
+				}
+			}
 			
 			&:hover {
 				.thread {
@@ -382,14 +403,23 @@ body {
 					white-space: nowrap;
 					overflow: hidden;
 					text-overflow: ellipsis;
+					padding-bottom: 2px;
 					width: 100%;
 					max-width: 100%;
 					display: block;
+					line-height: 1;
+					margin: 3px 0 0;
 				}
 				
 				.meta {
 					opacity: 0.8;
 					font-size: 0.8rem;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					width: 100%;
+					max-width: 100%;
+					display: block;
 				}	
 				
 				img {

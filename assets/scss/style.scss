@@ -661,13 +661,23 @@ body {
 		}
 		
 		h2 {
-			margin: 0 0 10px 0;
+			margin: 0 0 12px 0;
 		}
 		
 		p {
 			margin: 0 0 5px 0;
 			padding: 0;
 			opacity: 0.9;
+		}
+		
+		.fake-button {
+			background: #fff;
+			display: inline-block;
+			padding: 10px 15px;
+			color: $green;
+			font-weight: bold;
+			border-radius: 5px;
+			margin-top: 10px;
 		}
 	}
 	

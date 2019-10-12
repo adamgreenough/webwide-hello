@@ -468,11 +468,19 @@ body {
       background: #119d11;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.24); }
     #footer .cta h2 {
-      margin: 0 0 10px 0; }
+      margin: 0 0 12px 0; }
     #footer .cta p {
       margin: 0 0 5px 0;
       padding: 0;
       opacity: 0.9; }
+    #footer .cta .fake-button {
+      background: #fff;
+      display: inline-block;
+      padding: 10px 15px;
+      color: #13ab13;
+      font-weight: bold;
+      border-radius: 5px;
+      margin-top: 10px; }
   #footer .wrapper {
     flex-direction: row;
     display: flex;

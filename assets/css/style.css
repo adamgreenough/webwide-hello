@@ -291,9 +291,9 @@ body {
           #latest #threads-list a:nth-child(n+7) {
             display: none; } }
       #latest #threads-list a:hover .thread {
-        background: #1c2023; }
+        background: #101214; }
         #latest #threads-list a:hover .thread:after {
-          background: #1c2023; }
+          background: #101214; }
       #latest #threads-list a .thread {
         background: #22262a;
         padding: 20px;

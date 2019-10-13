@@ -447,18 +447,18 @@ body {
 				
 				div {
 					width: calc(100% - 60px);
-					flex: 1 0;
+					position: relative;
 				}
 				
 				.title {
-					font-weight: bold;
-					white-space: nowrap;
-					overflow: hidden;
+					font-weight: bold; 
+					white-space: nowrap; 
+					position: relative;
 					text-overflow: ellipsis;
+					overflow: hidden;
 					padding-bottom: 2px;
-					width: 100%;
 					max-width: 100%;
-					display: block;
+					width: 100%;
 					line-height: 1;
 					margin: 3px 0 0;
 				}

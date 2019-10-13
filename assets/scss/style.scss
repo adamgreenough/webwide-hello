@@ -374,6 +374,17 @@ body {
 		}
 	}
 	
+	p.all {
+		text-align: center;
+		padding-top: 10px;
+		
+		a {
+			color: #fff;
+			font-weight: bold;
+			text-decoration: none;
+		}
+	}
+	
 	#threads-list {
 		display: flex;
 		flex-wrap: wrap;
